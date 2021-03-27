@@ -1,6 +1,6 @@
 @font-face {
     font-family: ComfortaaBold;
-    src: url("../fonts/ComfortaaBold.ttf");
+    src: url("../fonts/Comfortaa-Bold.woff");
 }
 
 @font-face {
@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: OpenSans;
-    src: url("../fonts/OpenSansRegular.ttf");
+    src: url("../fonts/OpenSans-Regular.woff");
 }
 
 @font-face {
@@ -20,7 +20,7 @@
 
 @font-face {
     font-family: OpenSansBold;
-    src: url("../fonts/OpenSansBold.ttf");
+    src: url("../fonts/OpenSans-Bold.woff");
 }
 
 @font-face {
