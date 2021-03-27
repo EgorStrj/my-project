@@ -1,0 +1,1176 @@
+@font-face {
+    font-family: ComfortaaBold;
+    src: url("../fonts/comfortaa-bold.ttf");
+}
+
+@font-face {
+    font-family: NotoSans;
+    src: url("../fonts/NotoSans.ttf");
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url("../fonts/opensans-regular.ttf");
+}
+
+@font-face {
+    font-family: PTSerif;
+    src: url("../fonts/ptserif-bold.ttf");
+}
+
+@font-face {
+    font-family: OpenSansBold;
+    src: url("../fonts/opensans-bold.ttf");
+}
+
+@font-face {
+    font-family: PTSerifBold;
+    src: url("../fonts/PTSerif-bold.ttf");
+}
+
+@font-face {
+    font-family: NotoSansBold;
+    src: url("../fonts/notosans-bold.ttf");
+}
+
+
+body {
+    margin: 0;
+}
+
+body a {
+    text-decoration: none;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+.val-error {
+    color: red;
+    font-size: 14px;
+    font-family: NotoSans, sans-serif;
+    margin: 5px;
+    display: none;
+}
+
+#offer-popup form .form-input input.error, #offer-popup form .form-input textarea.error {
+    border: red 2px solid;
+}
+
+/*Header=>*/
+
+#header {
+    background-color: rgb(148, 182, 96);
+}
+
+#menu-cancel {
+    display: none;
+}
+#menu-btn {
+    display: none;
+}
+#header-container {
+    display: flex;
+    padding: 20px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-head {
+    display: flex;
+    align-items: center;
+}
+
+.logo-head span {
+    font-size: 15px;
+    font-family: ComfortaaBold, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.logo-img {
+    position: relative;
+    margin-right: 10px;
+}
+
+.logo-img::after {
+    content: url('../images/lotus.png');
+    left: 4px;
+    top: 7px;
+    position: absolute;
+    z-index: 3;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    width: 584px;
+}
+
+#menu .menu-item {
+    font-size: 15px;
+    font-family: "NotoSans", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.white-btn {
+    border: solid 2px white;
+    border-radius: 20px;
+    padding: 14px 19px;
+    font-size: 14px;
+    font-family: "OpenSans", sans-serif;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    cursor: pointer;
+    outline: 0;
+    background: transparent;
+}
+
+#header .white-btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(148, 182, 96);
+}
+
+/*first-block=>*/
+
+#first {
+    background: url("../images/first-bg.png");
+    background-size: cover;
+}
+
+#first-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.block-title {
+    font-size: 55px;
+    font-family: "PTSerif", sans-serif;
+    color: rgb(39, 60, 17);
+}
+
+#first-container h1 {
+    margin-top: 125px;
+    max-width: 600px;
+}
+
+#first-info-text {
+    font-size: 20px;
+    font-family: "NotoSans", sans-serif;
+    color: rgb(16, 25, 7);
+    line-height: 1.4;
+    max-width: 510px;
+    margin-top: 50px;
+}
+
+#first-info a.green-btn {
+    background-color: rgb(148, 182, 96);
+    padding: 20px 34px;
+    font-size: 14px;
+    font-family: "OpenSansBold", sans-serif;
+    color: rgb(251, 251, 251);
+    outline: 0;
+    border-radius: 24px;
+    border: 0;
+    cursor: pointer;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+#first-info a.green-btn:hover {
+    background-color: rgb(39, 60, 17);
+}
+
+#first-info-features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    margin-bottom: 130px;
+}
+
+#first .first-feature {
+    width: 171px;
+    text-align: center;
+}
+
+#first .first-feature .first-feature-text {
+    font-size: 14px;
+    font-family: "NotoSans", sans-serif;
+    color: rgb(16, 25, 7);
+}
+
+#first .first-feature .first-feature-img {
+    margin-bottom: 20px;
+}
+
+#first-image {
+    margin-top: 40px;
+}
+
+/*About=>*/
+
+#about {
+    position: relative;
+}
+
+#about::before {
+    content: url("../images/flower1.png");
+    position: absolute;
+    top: -240px;
+    left: 0;
+}
+
+#about::after {
+    content: url("../images/flower2.png");
+    position: absolute;
+    bottom: -270px;
+    right: 0;
+}
+
+#about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#about-container h2.block-title {
+    font-size: 40px;
+    font-family: "PTSerif", sans-serif;
+    color: rgb(39, 60, 17);
+    line-height: 1.125;
+    margin-top: 120px;
+    text-align: center;
+}
+
+#about-container .about-item {
+    display: flex;
+}
+
+#about-container .about-item .about-item-image {
+    margin-right: 230px;
+}
+
+#about-container .about-item .about-item-text {
+    max-width: 498px;;
+    font-size: 18px;
+    font-family: "NotoSans", sans-serif;
+    color: rgb(16, 25, 7);
+    line-height: 1.278;
+}
+
+#about-container #about-items {
+    margin-top: 60px;
+    position: relative;
+    padding-bottom: 335px;
+}
+
+#about-container .about-item:last-child .about-item-text {
+    max-width: 508px;
+    margin-top: 5px;
+
+}
+
+#about-container .about-item:last-child .about-item-image {
+    margin-right: 125px;
+}
+
+#about-container .about-item:last-child {
+    position: absolute;
+    top: 205px;
+    left: 230px;
+}
+
+/*Ours=>*/
+
+#ours-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#ours h2.block-title {
+    font-size: 35px;
+    font-family: "PTSerifBold", sans-serif;
+    color: rgb(39, 60, 17);
+    text-align: center;
+}
+
+#ours-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#ours-menu {
+    margin: 60px auto 0 auto;
+    display: flex;
+    max-width: 440px;
+    justify-content: space-between;
+}
+
+#ours-menu .ours-menu-action {
+    font-size: 25px;
+    font-family: "NotoSans", sans-serif;
+    color: rgb(39, 60, 17);
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+#ours-menu .ours-menu-action.active {
+    border-bottom: 2px solid rgb(148, 182, 96);
+}
+
+#ours-items-orch, #ours-items-container {
+    display: none;
+}
+
+#ours-items-container.active, #ours-items-orch.active {
+    display: flex;
+    margin: 40px -13px 0 -13px;
+}
+
+#ours-items, #ours-orchs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#ours-items .ours-item, #ours-orchs .ours-item {
+    height: 323px;
+    width: 340px;
+    padding: 0 20px 30px 20px;
+    box-sizing: border-box;
+    background-color: rgb(251, 251, 251);
+    border-radius: 5px;
+    margin: 12px 13px;
+}
+
+#ours-item .ours-item, #ours-orch .ours-item {
+    height: 670px;
+    width: 465px;
+    border-radius: 5px;
+    background-color: rgb(251, 251, 251);
+    box-sizing: border-box;
+    margin: 12px 13px;
+    padding: 0 20px 30px 20px;
+}
+
+
+#ours-item .ours-item img, #ours-orch .ours-item img {
+    height: 405px;
+}
+
+#ours-item .ours-item .ours-item-title, #ours-orch .ours-item .ours-item-title {
+    font-size: 25px;
+    font-family: "OpenSansBold", sans-serif;
+    color: rgb(39, 60, 17);
+    margin-top: 30px;
+}
+
+#ours-item .ours-item .ours-item-text, #ours-orch .ours-item .ours-item-text {
+    font-size: 18px;
+    font-family: "NotoSans", sans-serif;
+    color: rgb(16, 25, 7);
+    margin-top: 30px;
+}
+
+#ours-item .ours-item .ours-item-cost, #ours-orch .ours-item .ours-item-cost {
+    font-size: 25px;
+    font-family: "OpenSansBold", sans-serif;
+    color: rgb(148, 182, 96);
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ours-item .ours-item .ours-item-cost img, #ours-orch .ours-item .ours-item-cost img {
+    display: none;
+    height: 30px;
+}
+
+#ours-item .ours-item:hover .ours-item-cost img, #ours-orch .ours-item:hover .ours-item-cost img {
+    display: inline;
+    cursor: pointer;
+}
+
+#ours-items .ours-item .ours-item-title, #ours-orchs .ours-item .ours-item-title {
+    font-size: 20px;
+    font-family: "OpenSansBold", sans-serif;
+    color: rgb(39, 60, 17);
+    margin-top: 30px;
+
+}
+
+#ours-items .ours-item .ours-item-cost, #ours-orchs .ours-item .ours-item-cost {
+    font-size: 18px;
+    font-family: "OpenSansBold", sans-serif;
+    color: rgb(148, 182, 96);
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ours-items .ours-item .ours-item-image, #ours-orchs .ours-item .ours-item-image {
+    text-align: center;
+}
+
+#ours-items .ours-item .ours-item-cost img, #ours-orchs .ours-item .ours-item-cost img {
+    display: none;
+    height: 20px;
+}
+
+#ours-items .ours-item:hover .ours-item-cost img, #ours-orchs .ours-item:hover .ours-item-cost img {
+    display: inline;
+    cursor: pointer;
+}
+
+#ours .green-btn {
+    background-color: rgb(148, 182, 96);
+    width: 255px;
+    border-radius: 24px;
+    border: none;
+    padding: 20px;
+    height: 55px;
+    outline: 0;
+    font-size: 14px;
+    font-family: "OpenSansBold", sans-serif;
+    color: rgb(251, 251, 251);
+    margin: 40px 0 70px 0;
+    cursor: pointer;
+}
+
+#ours-action {
+    text-align: center;
+}
+
+#ours .green-btn:hover {
+    background-color: rgb(39, 60, 17);
+}
+
+#ours .green-btn::after {
+    content: 'Оформить заказ';
+    position: relative;
+    top: -3px;
+}
+
+#ours .green-btn:hover::after {
+    content: 'Посмотреть флорариумы';
+}
+
+/*Offer=>*/
+
+#offer {
+    background: url("../images/offer-bg.png"), center;
+    background-size: cover;
+    position: relative;
+}
+
+#offer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#offer-container h2.block-title {
+    font-size: 35px;
+    font-family: "PTSerifBold", sans-serif;
+    color: rgb(39, 60, 17);
+    padding-top: 140px;
+    padding-bottom: 20px;
+}
+
+#offer-container .offer-text {
+    font-size: 18px;
+    font-family: "NotoSans", sans-serif;
+    color: rgb(16, 25, 7);
+    line-height: 1.278;
+    width: 715px;
+    margin-top: 30px;
+}
+
+#offer-container .offer-text span {
+    font-family: OpenSansBold, sans-serif;
+}
+
+#offer-container a.green-btn {
+    background-color: rgb(148, 182, 96);
+    padding: 18px 34px;
+    font-size: 14px;
+    font-family: "OpenSansBold", sans-serif;
+    color: rgb(251, 251, 251);
+    outline: 0;
+    border-radius: 24px;
+    border: 0;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 140px;
+    display: inline-block;
+}
+
+#offer-container a.green-btn:hover {
+    background-color: rgb(39, 60, 17);
+}
+
+#offer-container #offer-image {
+    position: relative;
+    margin-top: 95px;
+    left: -25px;
+}
+
+#offer-container #offer-image::after {
+    content: url("../images/offer-image.png");
+    position: absolute;
+    bottom: 70px;
+    right: -75px;
+}
+
+#offer::before {
+    content: url("../images/offer-leaves-l.png");
+    position: absolute;
+    left: 30px;
+    bottom: 10px;
+}
+
+#offer:after {
+    content: url("../images/offer-leaves-r.png");
+    position: absolute;
+    right: 50px;
+    top: 10px;
+}
+
+/*How=>*/
+
+#how {
+    position: relative;
+}
+
+#how::before {
+    content: url("../images/flower3.png");
+    position: absolute;
+    left: 0;
+    bottom: -135px;
+}
+
+
+#how-container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#how-container .how-item {
+    width: 400px;
+    padding: 50px 28px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: rgb(247, 247, 247);
+    align-items: flex-start;
+    box-sizing: border-box;
+    height: 265px;
+}
+
+#how-container .how-item .how-item-title {
+    font-size: 20px;
+    font-family: "OpenSansBold", sans-serif;
+    color: rgb(39, 60, 17);
+}
+
+#how-container .how-item .how-item-text {
+    font-size: 14px;
+    font-family: "NotoSans", sans-serif;
+    color: rgb(16, 25, 7);
+    line-height: 1.357;
+    width: 246px;
+    margin-top: 20px;
+}
+
+#how-container .how-item-container {
+    padding: 10px;
+    border-radius: 5px;
+    background: white;
+}
+
+#how-container h2.block-title {
+    font-size: 35px;
+    font-family: "PTSerifBold", sans-serif;
+    color: rgb(39, 60, 17);
+    margin-top: 120px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#how-items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+#how-items #how2 {
+    margin-left: 110px;
+    z-index: 3;
+}
+
+#how-items #how3 {
+    margin-left: 250px;
+    z-index: 2;
+}
+
+#how-items #how4 {
+    margin-left: 110px;
+    z-index: 4;
+}
+
+#how-items #how4, #how-items #how3 {
+    position: relative;
+    top: -35px;
+}
+
+/*Gallery=>*/
+
+#gallery-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#gallery-container img:hover {
+    transform: scale(1.1);
+    transition-delay: 0.1s;
+    transition-duration: 0.3s;
+}
+
+#gallery-container h2.block-title {
+    font-size: 35px;
+    font-family: "PTSerifBold", sans-serif;
+    color: rgb(39, 60, 17);
+    margin-top: 90px;
+    text-align: center;
+}
+
+#gallery-images-container {
+    display: flex;
+    margin: 48px -18px 0 -18px;
+}
+
+#gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#gallery-images .gallery-image {
+    width: 332px;
+    height: 314px;
+    margin: 18px;
+}
+
+#gallery-images .gallery-image img {
+    width: 100%;
+    height: 100%;
+}
+
+#gallery-image .gallery-image {
+    margin: 18px;
+}
+
+/*shipment and payment=>*/
+
+#shipment-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+
+#shipment-container .ship-card {
+    border-radius: 5px;
+    background-color: rgb(247, 247, 247);
+    width: 528px;
+    padding: 50px 30px;
+}
+
+#shipment-container h2.block-title {
+    font-size: 35px;
+    font-family: "PTSerifBold", sans-serif;
+    color: rgb(39, 60, 17);
+    text-align: center;
+}
+
+#shipment-container .ship-card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+#shipment-container .ship-card-container img {
+    width: 80px;
+}
+
+#shipment-container .ship-card-title {
+    font-size: 20px;
+    font-family: "OpenSansBold", sans-serif;
+    color: rgb(39, 60, 17);
+}
+
+#shipment-container .ship-card-text {
+    font-size: 18px;
+    font-family: "NotoSans", sans-serif;
+    color: rgb(16, 25, 7);
+    line-height: 1.278;
+    width: 420px;
+    margin-top: 20px;
+}
+
+/*Feedbacks=>*/
+#feedbacks {
+    padding-bottom: 170px;
+    position: relative;
+}
+
+#feedbacks::after {
+    content: url("../images/flower4.png");
+    position: absolute;
+    bottom: 75px;
+    right: 0;
+}
+
+
+#feedbacks-container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#feedbacks-container h2.block-title {
+    margin-top: 100px;
+    font-size: 35px;
+    font-family: "PTSerifBold", sans-serif;
+    color: rgb(39, 60, 17);
+    text-align: center;
+}
+
+#feedbacks-items {
+    margin-top: 35px;
+    display: flex;
+}
+
+#feedbacks-container .feedback {
+    width: 345px !important;
+    padding: 20px;
+    text-align: center !important;
+    outline: 0;
+}
+
+#feedbacks-container .slick-next {
+    right: -3px;
+}
+
+#feedbacks-container .slick-prev {
+    left: -1px;
+}
+
+.slick-slide img {
+    display: inline !important;
+}
+
+
+.slick-dots li.slick-active button:before {
+    content: url("../images/feedback-nav-active.png") !important;
+}
+
+
+.slick-dots {
+    bottom: -75px !important;
+}
+
+.slick-dots li button:before {
+    content: url("../images/feedback-nav.png") !important;
+}
+
+
+#feedbacks-container .slick-list.draggable {
+    max-width: 1155px;
+    margin: 0 auto;
+}
+
+
+#feedbacks-container .feedback .feedback-title {
+    font-size: 20px;
+    font-family: "OpenSansBold", sans-serif;
+    color: rgb(39, 60, 17);
+    margin-top: 40px;
+}
+
+#feedbacks-container .feedback .feedback-text {
+    font-size: 18px;
+    font-family: "NotoSans", sans-serif;
+    color: rgb(16, 25, 7);
+    line-height: 1.278;
+    width: 337px;
+    margin-top: 30px;
+}
+
+#feedbacks .slick-next:before {
+    content: url("../images/right-arrow.png");
+}
+
+#feedbacks .slick-prev:before {
+    content: url("../images/left-arrow.png");
+}
+
+/*footer=>*/
+
+#footer {
+    background-color: rgb(148, 182, 96);
+    position: relative;
+}
+
+#footer::after {
+    content: url("../images/flower5.png");
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0 25px 0;
+}
+
+#footer-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-social-media {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+
+#footer-social-media .social-media {
+    margin: 0 10px;
+}
+
+#footer-social-media .social-media:hover {
+    opacity: 0.9;
+}
+
+#footer-action {
+    width: 290px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-action .tel-number {
+    font-size: 14px;
+    font-family: "NotoSansBold", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.286;
+}
+
+#footer .white-btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(148, 182, 96);
+}
+
+#footer-rights {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+}
+
+#footer-rights span {
+    font-size: 13px;
+    font-family: "NotoSans", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#footer-rights a {
+    font-size: 13px;
+    font-family: "NotoSans", sans-serif;
+    text-decoration: underline;
+    color: white;
+    line-height: 16px;
+}
+
+/*Popup*/
+
+#popup-container {
+    display: none;
+}
+
+#popup-container.active {
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#offer-popup {
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 9px 54px 3px rgba(110, 87, 68, 0.15);
+    width: 758px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px 50px 30px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.exit {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.exit:hover {
+    cursor: pointer;
+}
+
+#offer-popup h2.block-title {
+    font-size: 30px;
+    font-family: "PTSerifBold", sans-serif;
+    color: rgb(39, 60, 17);
+}
+
+#offer-popup .sub-title {
+    font-size: 14px;
+    font-family: "NotoSans", sans-serif;
+    color: rgb(16, 25, 7);
+    margin-top: 20px;
+}
+
+#offer-popup .enter-data {
+    font-size: 15px;
+    font-family: "NotoSans", sans-serif;
+    color: rgb(16, 25, 7);
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+#offer-popup .form-input textarea {
+    height: 100px;
+    resize: none;
+}
+
+#offer-popup .form-input input, #offer-popup .form-input textarea {
+    margin-top: 15px;
+    border-width: 1px;
+    border-color: rgb(39, 60, 17);
+    border-style: solid;
+    background-color: rgb(255, 254, 254);
+    width: 330px;
+    border-radius: 20px;
+    padding: 15px 20px;
+    font-size: 15px;
+    font-family: "NotoSans", sans-serif;
+    color: rgb(16, 25, 7);
+    outline: 0;
+    box-sizing: border-box;
+}
+
+#offer-popup .green-btn {
+    background-color: rgb(148, 182, 96);
+    padding: 20px 34px;
+    font-size: 14px;
+    font-family: "OpenSansBold", sans-serif;
+    color: rgb(251, 251, 251);
+    outline: 0;
+    border-radius: 24px;
+    border: 0;
+    cursor: pointer;
+    width: 183px;
+    margin-top: 25px;
+}
+
+#offer-popup .green-btn:hover {
+    background-color: rgb(39, 60, 17);
+}
+
+#offer-img {
+    margin-top: 65px;
+    height: 405px;
+    border-radius: 5px;
+    background-color: rgb(251, 251, 251);
+}
+
+#offer-img img {
+    width: 290px;
+    margin-top: 85px;
+}
+
+/*thanks popup*/
+
+
+#thanks {
+    border-radius: 20px;
+    background: url("../images/thanks-img.png");
+    background-size: cover;
+    width: 758px;
+    height: 654px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0px 9px 54.15px 2.85px rgba(110, 87, 68, 0.15);
+    display: none;
+}
+
+#thanks h2.block-title {
+    font-size: 35px;
+    font-family: "PTSerifBold", sans-serif;
+    color: rgb(39, 60, 17);
+    margin-top: 90px;
+}
+
+#thanks-text {
+    font-size: 18px;
+    font-family: "NotoSans", sans-serif;
+    color: rgb(16, 25, 7);
+    line-height: 1.278;
+    width: 440px;
+    margin: 50px auto 40px auto;
+}
+
+#thanks .green-btn {
+    background-color: rgb(148, 182, 96);
+    padding: 19px 42px;
+    font-size: 14px;
+    font-family: "OpenSansBold", sans-serif;
+    color: rgb(251, 251, 251);
+    outline: 0;
+    border-radius: 24px;
+    border: 0;
+    cursor: pointer;
+    width: 245px;
+    box-sizing: border-box;
+}
+
+#thanks .green-btn:hover {
+    background-color: rgb(39, 60, 17);
+}
+
+/*recall me popup*/
+
+
+#recall {
+    width: 450px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 9px 54.15px 2.85px rgba(110, 87, 68, 0.15);
+    position: relative;
+    padding: 50px 30px;
+    text-align: center;
+    display: none;
+}
+
+#recall .recall-text {
+    font-size: 18px;
+    font-family: "NotoSans", sans-serif;
+    color: rgb(16, 25, 7);
+    line-height: 1.278;
+}
+
+#recall .recall-input input {
+    border-width: 1px;
+    border-color: rgb(39, 60, 17);
+    border-style: solid;
+    background-color: rgb(255, 254, 254);
+    width: 330px;
+    border-radius: 20px;
+    padding: 15px 20px;
+    font-size: 15px;
+    font-family: "NotoSans", sans-serif;
+    color: rgb(16, 25, 7);
+    outline: 0;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+#recall .green-btn {
+    background-color: rgb(148, 182, 96);
+    padding: 19px 42px;
+    font-size: 14px;
+    font-family: "OpenSansBold", sans-serif;
+    color: rgb(251, 251, 251);
+    outline: 0;
+    border-radius: 24px;
+    border: 0;
+    cursor: pointer;
+    width: 330px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+#recall .green-btn:hover {
+    background-color: rgb(39, 60, 17);
+}
+
+#recall .exit {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/*Recall thanks*/
+
+
+#recall-thanks {
+    width: 450px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 9px 54.15px 2.85px rgba(110, 87, 68, 0.15);
+    position: relative;
+    padding: 50px 30px;
+    text-align: center;
+    display: none;
+}
+
+#recall-text  {
+    font-size: 20px;
+    font-family: "OpenSansBold", sans-serif;
+    color: rgb(39, 60, 17);
+}
+
+#recall-thanks .green-btn {
+    background-color: rgb(148, 182, 96);
+    padding: 19px 42px;
+    font-size: 14px;
+    font-family: "OpenSansBold", sans-serif;
+    color: rgb(251, 251, 251);
+    outline: 0;
+    border-radius: 24px;
+    border: 0;
+    cursor: pointer;
+    width: 330px;
+    box-sizing: border-box;
+    margin: 30px auto 0 auto;
+}
+
+#recall-thanks .green-btn:hover {
+    background-color: rgb(39, 60, 17);
+}
+
+#recall-thanks .exit {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.form-error {
+    color: red;
+    font-size: 14px;
+    font-family: "NotoSans", sans-serif;
+    display: none;
+}
