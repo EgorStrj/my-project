@@ -1,31 +1,26 @@
 @font-face {
     font-family: ComfortaaBold;
-    src: url("../fonts/Comfortaa-Bold.woff");
+    src: url("../fonts/Comfortaa.ttf");
 }
 
 @font-face {
     font-family: NotoSans;
-    src: url("../fonts/NotoSans.ttf");
+    src: url("../fonts/NotoSans-Regular.ttf");
 }
 
 @font-face {
     font-family: OpenSans;
-    src: url("../fonts/OpenSans-Regular.woff");
+    src: url("../fonts/OpenSans-Regular.ttf");
 }
 
 @font-face {
     font-family: PTSerif;
-    src: url("../fonts/PTSerifBold.ttf");
+    src: url("../fonts/PTSerif-Bold.ttf");
 }
 
 @font-face {
     font-family: OpenSansBold;
-    src: url("../fonts/OpenSans-Bold.woff");
-}
-
-@font-face {
-    font-family: PTSerifBold;
-    src: url("../fonts/PTSerifBold.ttf");
+    src: url("../fonts/OpenSans-Bold.ttf");
 }
 
 @font-face {
@@ -292,7 +287,7 @@ h1, h2 {
 
 #ours h2.block-title {
     font-size: 35px;
-    font-family: "PTSerifBold", sans-serif;
+    font-family: "PTSerif", sans-serif;
     color: rgb(39, 60, 17);
     text-align: center;
 }
@@ -474,7 +469,7 @@ h1, h2 {
 
 #offer-container h2.block-title {
     font-size: 35px;
-    font-family: "PTSerifBold", sans-serif;
+    font-family: "PTSerif", sans-serif;
     color: rgb(39, 60, 17);
     padding-top: 140px;
     padding-bottom: 20px;
@@ -593,7 +588,7 @@ h1, h2 {
 
 #how-container h2.block-title {
     font-size: 35px;
-    font-family: "PTSerifBold", sans-serif;
+    font-family: "PTSerif", sans-serif;
     color: rgb(39, 60, 17);
     margin-top: 120px;
     margin-bottom: 50px;
@@ -641,7 +636,7 @@ h1, h2 {
 
 #gallery-container h2.block-title {
     font-size: 35px;
-    font-family: "PTSerifBold", sans-serif;
+    font-family: "PTSerif", sans-serif;
     color: rgb(39, 60, 17);
     margin-top: 90px;
     text-align: center;
@@ -691,7 +686,7 @@ h1, h2 {
 
 #shipment-container h2.block-title {
     font-size: 35px;
-    font-family: "PTSerifBold", sans-serif;
+    font-family: "PTSerif", sans-serif;
     color: rgb(39, 60, 17);
     text-align: center;
 }
@@ -744,7 +739,7 @@ h1, h2 {
 #feedbacks-container h2.block-title {
     margin-top: 100px;
     font-size: 35px;
-    font-family: "PTSerifBold", sans-serif;
+    font-family: "PTSerif", sans-serif;
     color: rgb(39, 60, 17);
     text-align: center;
 }
@@ -942,7 +937,7 @@ h1, h2 {
 
 #offer-popup h2.block-title {
     font-size: 30px;
-    font-family: "PTSerifBold", sans-serif;
+    font-family: "PTSerif", sans-serif;
     color: rgb(39, 60, 17);
 }
 
@@ -1029,7 +1024,7 @@ h1, h2 {
 
 #thanks h2.block-title {
     font-size: 35px;
-    font-family: "PTSerifBold", sans-serif;
+    font-family: "PTSerif", sans-serif;
     color: rgb(39, 60, 17);
     margin-top: 90px;
 }
