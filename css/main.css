@@ -10,27 +10,27 @@
 
 @font-face {
     font-family: OpenSans;
-    src: url("../fonts/OpenSans-Regular.ttf");
+    src: url("../fonts/OpenSansRegular.ttf");
 }
 
 @font-face {
     font-family: PTSerif;
-    src: url("../fonts/PTSerif-Bold.ttf");
+    src: url("../fonts/PTSerifBold.ttf");
 }
 
 @font-face {
     font-family: OpenSansBold;
-    src: url("../fonts/OpenSans-Bold.ttf");
+    src: url("../fonts/OpenSansBold.ttf");
 }
 
 @font-face {
     font-family: PTSerifBold;
-    src: url("../fonts/PTSerif-Bold.ttf");
+    src: url("../fonts/PTSerifBold.ttf");
 }
 
 @font-face {
     font-family: NotoSansBold;
-    src: url("../fonts/notosans-bold.ttf");
+    src: url("../fonts/NotoSansbold.ttf");
 }
 
 
